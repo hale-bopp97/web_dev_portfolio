@@ -23,7 +23,6 @@ body {
     font-size: 72px;
     background-image: linear-gradient(175deg var(--purple) 25%, #E233FF 100%);
     -webkit-background-clip: text;
-    /* -webkit-text-fill-color: transparent; */
 }
 
 h1,
@@ -128,6 +127,7 @@ main {
 .page-section > div {
     flex: 00 77%;
 }
+
 .page-section p {
     margin-bottom: 20px;
     margin-left: 20px;
@@ -153,8 +153,13 @@ main {
     background-blend-mode: soft-light;
     background-size: 150%;
     font-size: 2rem;
-    color: var(--white);
+    color: var(--white); 
 }
+
+/* .flex-item img {
+    display: block;
+    width: 100%;
+} */
 
 .flex-item:first-child {
     min-height: 400px;
@@ -177,7 +182,5 @@ main {
     color: var(--white);
     padding: 5px;
     font-size: 1.3rem;
-    
     display: inline-block;
-
 }
