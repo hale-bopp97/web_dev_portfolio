@@ -33,3 +33,5 @@ LinkedIn: https://www.linkedin.com/in/matthew-hendricks-029a25a8/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+![screen capture of site](https://github.com/hale-bopp97/web_dev_portfolio/blob/main/assets/images/profile_site_capture.JPG?raw=true)
