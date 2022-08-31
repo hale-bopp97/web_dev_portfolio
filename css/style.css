@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* color vars to be used throughout */
 :root {
  --dark: #9b2cd4;
  --white: white;
@@ -17,10 +18,9 @@ body {
     background-color: var(--dark);
 }
 
+/* sets font size for the title class */
 .title {
     font-size: 72px;
-    background-image: linear-gradient(175deg var(--purple) 25%, #E233FF 100%);
-    -webkit-background-clip: text;
 }
 
 h1,
@@ -36,6 +36,7 @@ p {
     margin: 0;
 }
 
+/* settings for the header element */
 header {
     padding: 15px 6% 15px 0;
     display: flex;
@@ -47,6 +48,7 @@ header {
     background-color: var(--purple);
 }
 
+/* settings for the span element insided of header */
 header span {
     color: var(--purple);
     background-color: var(--white);
@@ -55,12 +57,14 @@ header span {
     line-height: 1;
 }
 
+/* settings for the nav element insided of header */
 nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
+/* settings for the a tags inside of the header element */
 nav a {
     text-decoration: none;
     padding: 5px 10px;
@@ -69,11 +73,13 @@ nav a {
     font-size: 2rem;
 }
 
+/* changes color of nav options when moused over */
 nav a:hover {
     background-size: 100% 100%;
     color: #11d9a8;
 }
 
+/* pushes nav to the right */
 nav a:last-child {
     margin-right: 0;
 }
@@ -83,6 +89,7 @@ main {
     margin-bottom: 45px;
 }
 
+/* settings for the main banner. img included in css */
 .hero {
     padding: 2% 6%;
     justify-content: center;
@@ -98,11 +105,14 @@ main {
     flex: 0 0 90%;
 }
 
+/* settings for the page-wrapper class */
 .page-wrapper {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* settings fo the page-section class under page-wrapper */
 .page-section {
     margin:25px 0;
     padding: 10px 0;
@@ -113,6 +123,7 @@ main {
     justify-content: center;
 }
 
+/* settings for the header under the page-section class */
 .page-section > h2 {
     flex: 0 0 20%;
     text-align: right;
@@ -122,22 +133,26 @@ main {
     line-height: 1.1;
 }
 
+/* settings for div under page-section class */
 .page-section > div {
     flex: 00 77%;
 }
 
+/* settings for p element under page-section class */
 .page-section p {
     margin-bottom: 20px;
     margin-left: 20px;
     font-size: 20px;
 }
 
+/* settings for the flex-container class */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* settings for the flex-item class within the flex-container class */
 .flex-item {
     border: 5px solid var(--purple);
     display: flex;
@@ -154,15 +169,18 @@ main {
     color: var(--white); 
 }
 
+/* makes the first box larger than the remaining ones */
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
 }
 
+/* shades flex=item when moused over */
 .flex-item:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
+/* settings for the contact section and address element within it */
 .contact address {
     display: flex;
     flex-wrap: wrap;
@@ -171,6 +189,7 @@ main {
     height: 100%;
 }
 
+/* settings for the a tags within the address element */
 .contact address a {
     color: var(--white);
     padding: 5px;
@@ -178,6 +197,7 @@ main {
     display: inline-block;
 }
 
+/* allows for a font to be used that's not included by default */
 @font-face {
     font-family: 'camcorderFont';
     src: url("../assets/vcr-osd-mono/VCR_OSD_MONO.ttf");
