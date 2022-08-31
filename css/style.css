@@ -6,16 +6,14 @@
  --dark: #9b2cd4;
  --white: white;
  --purple: #5c048c;
- --mint: #11d9a8;
-
- --main-font: 
+ --mint: #11d9a8; 
 }
 
 body {
     margin: 0;
     padding: 0;
     color: var(--white);
-    font-family:monospace;
+    font-family: 'camcorderFont';
     background-color: var(--dark);
 }
 
@@ -156,11 +154,6 @@ main {
     color: var(--white); 
 }
 
-/* .flex-item img {
-    display: block;
-    width: 100%;
-} */
-
 .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
@@ -183,4 +176,9 @@ main {
     padding: 5px;
     font-size: 1.3rem;
     display: inline-block;
+}
+
+@font-face {
+    font-family: 'camcorderFont';
+    src: url("../assets/vcr-osd-mono/VCR_OSD_MONO.ttf");
 }
