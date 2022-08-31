@@ -92,8 +92,9 @@ main {
     align-items: flex-end;
     text-align: center;
     min-height: 30vh;
-    background-image: url("../assets/images/djhere-san-diego-skyline-1920x960-2270667376");
+    background-image: url("../assets/images/th-1842973526");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .hero div {
